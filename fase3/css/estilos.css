@@ -1,6 +1,6 @@
 .Encabezado {
     background-color: white;
-    padding: 25px;
+    padding: 20px;
 }
 
 .Navegacion {
@@ -9,8 +9,7 @@
 }
 
 .Contenedor {
-    background-color: red;
-    padding: 35px;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -23,11 +22,12 @@
 
 .Lateral {
     background-color: brown;
-    padding: 35px;
-    grid-column: 4/5;
+    height: 99%;
+    margin: 10px;
 }
 
 .Pie_P {
-    background-color: blue;
-    padding: 35px;
+    width: 100%;
+    padding: 25px;
+    flex-wrap: wrap;
 }
